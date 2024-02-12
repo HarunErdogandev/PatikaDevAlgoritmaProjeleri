@@ -1,0 +1,20 @@
+Adım: [22, 27, 16, 2, 18, 6] (Başlangıç durumu)
+Adım: [22, 27, 16, 2, 18, 6] (2 sıralandı)
+Adım: [16, 22, 27, 2, 18, 6] (16 sıralandı)
+Adım: [2, 16, 22, 27, 18, 6] (2 sıralandı)
+Adım: [2, 16, 18, 22, 27, 6] (18 sıralandı)
+Adım: [2, 6, 16, 18, 22, 27] (6 sıralandı)
+Big-O gösterimi:
+Insertion Sort'un Big-O gösterimi O(n^2) şeklindedir.
+
+Time Complexity:
+Dizi sıralandıktan sonra 18 sayısı, Average case'e girer. Çünkü aradığımız sayının ortada olma durumu, 18 sayısının indeks sıralaması göz önüne alındığında 18'in dizinin ortasına daha yakın olduğu bir durumu kapsar.
+
+Şimdi de [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort'a göre ilk 4 adımını yazalım:
+
+Verilen dizi: [7, 3, 5, 8, 2, 9, 4, 15, 6]
+
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (2 en küçük, ilk elemanla yer değiştirdi)
+Adım: [2, 3, 5, 8, 7, 9, 4, 15, 6] (3 zaten en küçük, yer değişimi olmadı)
+Adım: [2, 3, 4, 8, 7, 9, 5, 15, 6] (4 en küçük, 4 ile 7 yer değiştirdi)
+Adım: [2, 3, 4, 5, 7, 9, 8, 15, 6] (5 en küçük, 5 ile 8 yer değiştirdi)
