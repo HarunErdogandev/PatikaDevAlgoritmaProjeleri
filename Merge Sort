@@ -1,0 +1,8 @@
+[16, 21, 11] ve [8, 12, 22] olarak iki alt diziye bölünür.
+Her iki alt dizinin de boyutu 3'tür, bu yüzden her iki alt dizi de sıralanır:
+[11, 16, 21] ve [8, 12, 22]
+Sıralı alt diziler birleştirilir:
+[8, 11, 12, 16, 21, 22]
+Sonuç olarak, verilen dizinin sıralanmış hali [8, 11, 12, 16, 21, 22] olacaktır.
+
+Merge Sort'un Big-O gösterimi O(n log n)’dir.
